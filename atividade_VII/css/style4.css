@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+li {
+    padding: 17px;
+}
+li a {
+    color:rgb(0, 2, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    font-family:serif;
+    text-transform: capitalize;
+}
+header{
+    width: 100%;
+    background-color: rgba(48, 70, 125, 0.725);
+    position: sticky;
+    display: flex;
+    padding: 0;
+}
+#senai{
+    height: 55px;
+}
+#icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+#user{
+    height: 100px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile{
+    border-radius: 10px;
+    background-color: #41495285;
+    height: 600px;
+    width: 600px;
+    border:2px white solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+a:hover{
+    color: rgb(152, 156, 245);
+}
